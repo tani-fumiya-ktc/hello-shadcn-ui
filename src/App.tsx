@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <h1>Vite + React</h1>
+      <p className="bg-primary text-primary-foreground">hello</p>
       <div className="card">
         <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
